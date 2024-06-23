@@ -1,0 +1,105 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            background-image: url('../P completo/Imagen de WhatsApp 2024-06-10 a las 19.16.31_17b645c5.jpg');
+            background-size: cover;
+        }
+        .contact-container {
+            background-color: #2874A6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .social-links li {
+            margin: 0 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background-color: #333;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            opacity: 0.7;
+        }
+        .btn-back {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn-back:hover {
+            background-color: #0056b3;
+        }
+        header {
+            background: #A0C5E3;
+            color: #000000;
+            padding: 1em 0;
+            text-align: center;
+            width: 100%;
+        }
+        video {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contacto</h1>
+        </div>
+    </header>
+    <div class="contact-container">
+        <p>Email: refugiolacasitadebluey@gmail.com</p>
+        <p>Teléfono: 311-123-4567</p>
+        <img src="../P completo/Logotipo Protectora Animal Ilustrado Crema y Azul.jpg" width="200" height="200" style="border-radius:50%;">
+        <ul class="social-links">
+            <div style="margin: 50px;"><li><a href="https://www.facebook.com/profile.php?id=61561147911834" target="_blank" style="background-color: #3b5998;">Facebook</a></li></div>
+           <div style="margin: 50px;"> <li><a href="https://www.instagram.com/lacasitadebluey1/" target="_blank" style="background-color: #e1306c;">Instagram</a></li></div>
+           <div style="margin: 50px;"> <li><a href="https://www.tiktok.com" target="_blank" style="background-color: #000000;">TikTok</a></li></div>
+        </ul>
+    </div>
+    <video src="../P completo/la casita de bluey.mp4" width="400" height="450" controls></video>
+    <button class="btn-back" onclick="goBack()">Volver</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
+
